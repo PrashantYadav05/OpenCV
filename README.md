@@ -37,6 +37,7 @@
 * Image segmentation using the k-means algorithm
 * Image segmentation using segment seeds, the watershed algorithm
 
+## Object Detection and Machine Learning
 * Finding edges using the Canny algorithm
 * Detecting lines and circles using the Hough transform
 * Finding objects via template matching
