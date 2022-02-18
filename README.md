@@ -1,8 +1,22 @@
 # OpenCV
 
-## How to read, write, show videos from camera:
+## I/O and GUI
+* Reading images from file
+* Simple image transformations—resizing and flipping
+* Saving images using lossy and lossless compression
+* Showing images in an OpenCV window
+* Working with UI elements, such as buttons and
+trackbars, in an OpenCV window
+* Drawing 2D primitives—markers, lines, ellipses,
+rectangles, and text
+* Handling user input from a keyboard
+* Making your app interactive through handling user
+* input from a mouse Capturing and showing frames from a camera
+* Playing frame stream from video
+* Obtaining a frame stream properties
+* Writing a frame stream into video
+* Jumping between frames in video files
 
-## Drawing geometric shapes on images:
 
 ## Handle "Mouse Events":
 ## Matrices, Colors, & Filters:
@@ -53,3 +67,45 @@ learning models
 * Detecting AruCo patterns for AR applications
 * Detecting text in natural scenes
 * The QR code detector and recognizer
+
+## Image and Video
+* Processing
+* This chapter contains recipes for:
+* Warping an image using affine and perspective transformations
+* Remapping an image using arbitrary transformation
+* Tracking keypoints between frames using the Lucas-Kanade algorithm
+* Background subtraction
+* Stitching many images into panorama
+* Denoising a photo using non-local means algorithms
+* Constructing an HDR image
+* Removing defects from a photo with image inpainting
+
+## Detectors and Descriptors
+* This chapter contains recipes for:
+* Finding corners in an image - Harris and FAST
+* Selecting good corners in an image for tracking
+* Drawing keypoints, descriptors, and matches
+* Detecting scale invariant keypoints
+* Computing descriptors for image keypoints - SURF, BRIEF, and ORB
+* Matching techniques for finding correspondencesbetween descriptors
+* Finding reliable matches - cross-check and ratio test
+* Model-based filtering of matches - RANSAC
+* BoW model for constructing global image descriptors
+
+
+
+## Multiple View Geometry:
+* Pinhole camera model calibration
+* Fisheye camera model calibration
+* Stereo rig calibration - estimation of extrinsics
+* Distorting and undistorting points
+* Removing lens distortion effects from an image
+* Restoring a 3D point from two observations through triangulation
+* Finding a relative camera-object pose through the PnP algorithm
+* Aligning two views through stereo rectification
+* Epipolar geometry - computing fundamental and essential matrices
+* Essential matrix decomposition into rotation and translation
+* Estimating disparity maps for stereo images
+* Special case 2-view geometry - estimating homography transformation
+* Planar scene - decomposing homography into rotation and translation
+* Rotational camera cas - estimating camera rotation from homography
